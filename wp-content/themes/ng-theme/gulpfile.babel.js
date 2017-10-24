@@ -10,10 +10,10 @@ import source from 'vinyl-source-stream';
 import tsify from 'tsify';
 
 gulp.task('browserify', () => {
-        return browserify({
-            entries: 'source/bootstrap.ts',
-            debug: true
-        })
+    return browserify({
+        entries: 'source/bootstrap.ts',
+        debug: true
+    })
         .plugin(tsify, {
             target: 'es5',
             experimentalDecorators: true

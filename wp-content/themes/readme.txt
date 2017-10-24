@@ -14,3 +14,10 @@ npm init
 
 npm install --save-dev babel-core babel-preset-es2015 browserify gulp gulp-watch gulp-batch gulp-less gulp-rename gulp-uglify tsify vinyl-source-stream
 npm install --save angular4 reflect-metadata rxjs zone.js
+
+-- package json fixed angular values
+-- ng-theme posts creation wapp.ts etc creation
+
+-- lesson 3
+-- precise bootstrap.css inside less
+-- Activate sqlintegration and rest api plugins
